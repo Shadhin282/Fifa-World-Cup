@@ -47,7 +47,10 @@
 }
 .upcoming-matches-left{
     background-color: black;
+    /* flex-basis: 900px; */
+    flex:1
 }
 .upcoming-match-right{
     background-color: orange;
+    flex:1
 }
