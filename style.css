@@ -48,9 +48,14 @@
 .upcoming-matches-left{
     background-color: black;
     /* flex-basis: 900px; */
-    flex:1
+    flex:1;
+
+    display:flex;
+    flex-direction: column;
+    gap:20px;
+    padding: 15px;
 }
-.upcoming-match-right{
+.upcoming-matches-right{
     background-color: orange;
     flex:1
 }
