@@ -1,0 +1,39 @@
+*{
+    box-sizing: border-box;
+    /* padding:0; */
+    /* margin: 0; */
+}
+.container{
+    max-width: 1280px;
+    margin: auto;
+}
+.banner{
+    display: flex;
+    align-items: center;
+    color: #fff;
+    background-color: black;
+    justify-content: center;
+    margin: 50px auto;
+}
+.banner-content{
+    padding-left: 45px;
+}
+.banner-title{
+    font-size: 70px;
+    font-weight: 700;
+}
+.banner-details{
+    color:#ffffff;
+        margin: 15px 0;
+}
+.btn-primary{
+    background-color: #dd0000;
+    padding: 15px 25px;
+    border-radius: 10px;
+    font-weight: 600;
+    color: white;
+    border: none;
+}
+.banner-img-1{
+    display:block;
+}
