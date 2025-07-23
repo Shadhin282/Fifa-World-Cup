@@ -40,3 +40,14 @@
 .banner-img-1{
     display:block;
 }
+/* Upcoming Matches style */
+.upcoming-matches{
+    display: flex;
+    background-color: green;
+}
+.upcoming-matches-left{
+    background-color: black;
+}
+.upcoming-match-right{
+    background-color: orange;
+}
