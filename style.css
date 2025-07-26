@@ -4,6 +4,9 @@
      margin: 0; 
      font-family: "Poppins", sans-serif;
 }
+img{
+    max-width:100%
+}
 .container{
     max-width: 1280px;
     margin: auto;
@@ -18,6 +21,7 @@
 }
 .banner-content{
     padding-left: 45px;
+    flex: 1;
 }
 .banner-title{
     font-size: 70px;
@@ -100,6 +104,9 @@
 }
 
 @media screen and (max-width:992px){
+    /* Banner */
+
+    /* Upcoming matches */
     .upcoming-matches{
         flex-direction: column;
     }
@@ -113,5 +120,8 @@
     }
     .upcoming-matches-left .btn{
         border: 1px solid rgb(232,232,232)
+    }
+    .upcoming-matches-right{
+        grid-template-columns: repeat(2,1fr);
     }
 }
