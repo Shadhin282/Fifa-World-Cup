@@ -64,10 +64,16 @@
     color: black;
 }
 .upcoming-matches-right{
-    background-color: orange;
+    
     flex:1
 }
-
+.upcoming-matches-right .card{
+    border: 1px solid rgb(232,232,232);
+    border-radius: 10px;
+}
+.upcoming-matches .card .card-body{
+    padding: 10px;
+}
 .upcoming-matches-right .card img {
     height: 180px;
     width:100%;
