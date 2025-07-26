@@ -31,7 +31,7 @@ img{
 .banner-details{
     color:#ffffff;
     margin: 15px 0;
-    width: 50%;
+    max-width: 65%;
 }
 .btn-primary{
     background-color: #dd0000;
@@ -118,10 +118,20 @@ img{
     .upcoming-matches-left>*{
         flex:1
     }
-    .upcoming-matches-left .btn{
-        border: 1px solid rgb(232,232,232)
-    }
-    .upcoming-matches-right{
-        grid-template-columns: repeat(2,1fr);
-    }
 }
+    /* Media for mobile */
+    @media screen and (max-width:768px){
+        .banner{
+            flex-direction: column;
+            text-align: center;
+        }
+        .banner-content{
+            margin-bottom: 50px;
+            padding-left: 0;
+            padding-top: 30px;
+        }
+        .banner-details{
+            /* max-width: 100%; */
+            margin: 15px auto;
+        }
+    }
