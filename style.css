@@ -104,6 +104,10 @@ img{
 }
 
 @media screen and (max-width:992px){
+    .container{
+    
+    margin: 0 20px;
+}
     /* Banner */
 
     /* Upcoming matches */
@@ -121,6 +125,10 @@ img{
 }
     /* Media for mobile */
     @media screen and (max-width:768px){
+         .container{
+    
+    margin: 0 10px;
+}
         .banner{
             flex-direction: column;
             text-align: center;
@@ -133,5 +141,11 @@ img{
         .banner-details{
             /* max-width: 100%; */
             margin: 15px auto;
+        }
+        .upcoming-matches-left{
+            flex-direction: column;
+        }
+        .upcoming-matches-right{
+            grid-template-columns: repeat(1,1fr);
         }
     }
