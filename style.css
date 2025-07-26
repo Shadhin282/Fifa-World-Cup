@@ -43,14 +43,13 @@
 /* Upcoming Matches style */
 .upcoming-matches{
     display: flex;
-    background-color: green;
     padding: 50px 0;
     gap: 20px; 
 }
 .upcoming-matches-left{
     background-color: black;
     /* flex-basis: 900px; */
-    flex:1;
+    
     width: 25%;
     height: fit-content;
     display:flex;
@@ -65,7 +64,10 @@
 }
 .upcoming-matches-right{
     
-    flex:1
+    flex:1;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap:17px;
 }
 .upcoming-matches-right .card{
     border: 1px solid rgb(232,232,232);
