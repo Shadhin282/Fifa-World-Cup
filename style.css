@@ -98,3 +98,20 @@
     gap: 20px;
     color: #161616cc;
 }
+
+@media screen and (max-width:992px){
+    .upcoming-matches{
+        flex-direction: column;
+    }
+    .upcoming-matches-left{
+        flex-direction: row;
+        width: 100%;
+        background-color: transparent;
+    }
+    .upcoming-matches-left>*{
+        flex:1
+    }
+    .upcoming-matches-left .btn{
+        border: 1px solid rgb(232,232,232)
+    }
+}
