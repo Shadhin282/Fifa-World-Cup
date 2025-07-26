@@ -14,7 +14,7 @@ img{
 @keyframes banner_animation{
     0%{
         opacity: 0;
-        transform: translatex(-20px)
+        transform: translatex(-20px);
     }
     50% {
         opacity: 0.5;
@@ -46,7 +46,8 @@ img{
     background-color: black;
     justify-content: center;
     margin: 50px auto;
-    animation: banner_animation 2s ease-out forwards;
+    animation: banner_animation 0.5s ease-out forwards;
+    border-radius: 10px;
 }
 .banner-content{
     padding-left: 45px;
@@ -72,7 +73,7 @@ img{
 }
 .banner-img-1{
     display:block;
-    animation: banner_pleyer-animation 2s ease-in infinite;
+    animation: banner_pleyer-animation 0.5s ease-in infinite;
 }
 /* Upcoming Matches style */
 .upcoming-matches{
